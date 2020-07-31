@@ -2,12 +2,14 @@ package ch.muellae.casiota;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+@EnableScheduling
 public class CasiotaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CasiotaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CasiotaApplication.class, args);
+    }
 
 }
