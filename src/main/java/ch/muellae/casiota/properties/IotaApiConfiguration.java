@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
 @Validated
 @NoArgsConstructor
 @Data
-public class IotaApiProperties {
+public class IotaApiConfiguration {
 
     @NotNull
     private int mwm;

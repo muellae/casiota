@@ -16,12 +16,15 @@ import javax.validation.constraints.NotNull;
 @Configuration
 @ConfigurationProperties("casino")
 @EnableScheduling
-public class ApplicationProperties {
+public class ApplicationConfiguration {
 
     @NotNull
     private boolean skipConfirmation = true;
 
     private String tag = "MUELLAEONTHETANGLE9";
+
+
+
 
 
 }

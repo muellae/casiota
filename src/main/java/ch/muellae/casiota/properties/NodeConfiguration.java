@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @Getter
 @Setter
-public class NodeProperties {
+public class NodeConfiguration {
 
     @NotBlank
     private String host;
